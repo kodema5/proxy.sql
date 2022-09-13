@@ -1,0 +1,23 @@
+# test links
+
+###
+GET http://localhost:8080/http-bin/get?x=123
+
+
+###
+POST http://localhost:8080/http-bin/post?x=123
+Content-Type: application/json
+
+{"a":123}
+
+###
+PUT http://localhost:8080/http-bin/put?x=123
+Content-Type: application/json
+
+{"a":123}
+
+###
+DELETE http://localhost:8080/http-bin/delete?x=123
+Content-Type: application/json
+
+{"a":123}
